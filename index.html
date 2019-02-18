@@ -1,0 +1,57 @@
+<html>
+
+<head>
+  <script src="js/tf.min.js"></script>
+  <script src="classes.js"></script>
+</head>
+
+<style>
+  body {
+    margin: 20px;
+  }
+  .input-div {
+    padding: 5px;
+    font-family: monospace;
+  }
+  a {
+    color: blue;
+  }
+
+  p {
+    width: 500px;
+  }
+
+  #status {
+    margin-top: 30px;
+    font-size: 20px;
+  }
+  .pred-container {
+    margin-bottom: 20px;
+  }
+  .pred-container > div {
+    display: inline-block;
+    margin-right: 20px;
+    vertical-align: top;
+  }
+  .row {
+    display: table-row;
+  }
+  .cell {
+    display: table-cell;
+    padding-right: 20px;
+  }
+</style>
+
+<body>
+
+  <div id="file-container" style="display: none">
+    Upload an image: <input type="file" id="files" name="files[]" multiple />
+  </div>
+
+  <div id="status"></div>
+
+  <div id="predictions"></div>
+
+  <img style="display: none" id="cat" src="5.png" width=28 height=28/>
+</body>
+<script src="index.js"></script>
