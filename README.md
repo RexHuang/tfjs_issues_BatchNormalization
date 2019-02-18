@@ -3,7 +3,9 @@
 tensorflowjs_converter --input_format keras model1.h5 model </br>
 tensorflowjs_converter --input_format keras model2.h5 model_not_working
 </br>
-#Model_ok<br>
+</br>
+</br>
+# Model_ok<br>
 </br>
 model = Sequential()</br>
 model.add(Conv2D(filters = 32, kernel_size = (5,5),padding = 'Same', </br>
@@ -22,10 +24,9 @@ model.add(Flatten())</br>
 model.add(Dense(256, activation = "relu"))</br>
 model.add(Dropout(0.5))</br>
 model.add(Dense(10, activation = "softmax"))
-
-
 </br>
-#Model_not_working:<br>
+</br>
+# Model_not_working:<br>
 </br>
 model = Sequential()</br>
 model.add(Conv2D(filters = 32, kernel_size = (5,5),padding = 'Same', </br>
