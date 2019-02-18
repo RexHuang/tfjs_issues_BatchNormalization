@@ -51,5 +51,6 @@ model.add(Dropout(0.5))</br>
 model.add(Dense(10, activation = "softmax"))
 <br>
 <br>
-# Output
+# Output<br>
+
 ![structure](https://github.com/RexHuang/tfjs_issues_BatchNormalization/edit/master/output.jpg)
